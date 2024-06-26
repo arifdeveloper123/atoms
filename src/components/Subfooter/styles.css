@@ -1,0 +1,78 @@
+.sub-footer {
+    background-color: #f7f7f7;
+    border-top: 1px solid #eaeaea;
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sub-footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+  }
+  
+  .sub-footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .sub-footer-links a {
+    text-decoration: none;
+    color: #767676;
+    font-size: 14px;
+    margin-right: 15px;
+  }
+  
+  .sub-footer-links a:hover {
+    color: #000;
+  }
+  
+  .sub-footer-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .language-currency {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .language-currency a {
+    text-decoration: none;
+    color: #767676;
+    font-size: 14px;
+    margin-left: 15px;
+  }
+  
+  .language-currency a:hover {
+    color: #000;
+  }
+  
+  .social-icons a {
+    text-decoration: none;
+    color: #767676;
+    font-size: 14px;
+    margin-left: 15px;
+  }
+  
+  .social-icons a:hover {
+    color: #000;
+  }
+  
+  .icon-globe::before {
+    content: "\f0ac";
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+  }
+  
+  .icon-currency::before {
+    content: "\f3d1"; 
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}  
